@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Garet";
+  src: url("src/assets/Fonts/Garet Font/Garet-Book.ttf");
+}
+
+@font-face {
+  font-family: "Milk";
+  src: url("src/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Base-BF664ffce52d6ab.otf")
+}
+
+@font-face {
+  font-family: "Milk-Light";
+  src: url("src/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Line-BF664ffce581036.otf")
+}
+
+@font-face {
+  font-family: "Milk-Cursive";
+  src: url("src/assets/Fonts/Milk Font/TT-Milks-Script-Trial-Regular-BF664ffceacb1e4.otf")
+}
+
+@theme {
+    --color-ck-red: #da2113;
+    --color-ck-yellow: #f0d610;
+    --font-garet: "Garet", san-serif;
+    --font-milk: "Milk", san-serif;
+    --font-milk-light: "Milk-Light", san-serif;
+    --font-milk-cursive: "Milk-Cursive", san-serif;
+}
+
+body{
+  background-color: #da2113;
+}
