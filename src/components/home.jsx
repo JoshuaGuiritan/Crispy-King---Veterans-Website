@@ -44,7 +44,7 @@ const home = ({about, products}) => {
                 <div className="overflow-x-hidden">
                     <div className="w-full h-24 flex justify-between absolute top-0">
                         <div className="w-50 h-full flex justify-start items-center">
-                            <img src="src/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
+                            <img src="public/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
                         </div>
                         <div className="md:w-130 w-40 h-full text-white text-sm flex justify-end items-center font-garet transition-all duration-500 ease-out">
                             <a role="button" className="mr-10 md:block hidden cursor-pointer">HOME</a>
@@ -52,7 +52,7 @@ const home = ({about, products}) => {
                             <a role="button" className="mr-10 md:block hidden cursor-pointer" onClick={scrollProducts}>PRODUCTS</a>
                             <a role="button" className="mr-10 md:block hidden cursor-pointer">CONTACTS</a>
                             <a role="button" className="md:hidden block">
-                                <img src="./src/assets/Icons/Menu-icon.png" alt="menu icon" className="w-10 mr-8"/>
+                                <img src="./public/assets/Icons/Menu-icon.png" alt="menu icon" className="w-10 mr-8"/>
                             </a>
                         </div>
                     </div>
@@ -64,12 +64,12 @@ const home = ({about, products}) => {
                         <div className="w-full md:h-31 h-25 flex md:justify-end justify-center md:items-center items-end">
                             <h3 className="font-milk-cursive text-ck-yellow lg:text-2xl md:text-base sm:xl text-lg md:relative md:top-2 md:left-14">Click here for location</h3>
                             <div className="relative top-13 md:block hidden">
-                                <img src="./src/assets/Icons/yellow-arrow.png" className="lg:w-60 w-50" />
+                                <img src="./public/assets/Icons/yellow-arrow.png" className="lg:w-60 w-50" />
                             </div>
                         </div>
                     </div>
                     <a target="_blank" href={`${locationLink}`}>
-                        <img src="src/assets/Icons/Store.png" alt="store logo" className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-70 hover:scale-105 transition-all duration-500 ease-out" title="Crispy King - Veterans Bran Location via Google Maps"/>
+                        <img src="public/assets/Icons/Store.png" alt="store logo" className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-70 hover:scale-105 transition-all duration-500 ease-out" title="Crispy King - Veterans Bran Location via Google Maps"/>
                     </a>
                 </div>
             </div>
