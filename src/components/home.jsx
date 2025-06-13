@@ -39,7 +39,7 @@ const home = ({about, products}) => {
       }, [count]);
 
       return (
-        <div className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center animate-pulse`}>
+        <div className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center transition-opacity duration-700`}>
             <div className="bg-[#000000b4] w-full h-full flex justify-center items-center">
                 <div className="overflow-x-hidden">
                     <div className="w-full h-24 flex justify-between absolute top-0">
