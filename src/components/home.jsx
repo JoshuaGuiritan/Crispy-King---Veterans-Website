@@ -4,7 +4,7 @@ const home = ({about, products}) => {
     
       const locationLink = "https://www.google.com/maps/place/Crispy+King+Veterans/@6.9080304,122.0787977,894m/data=!3m1!1e3!4m10!1m2!2m1!1scrispy+king!3m6!1s0x325041f9da4ee891:0xbeb14f99643146b6!8m2!3d6.90803!4d122.0802416!15sCgtjcmlzcHkga2luZ1oNIgtjcmlzcHkga2luZ5IBFGZhc3RfZm9vZF9yZXN0YXVyYW50qgFEEAEqDyILY3Jpc3B5IGtpbmcoADIeEAEiGkHFR-jv2lu_Zyy2nBQGWfP5sy8rpqOtvcDiMg8QAiILY3Jpc3B5IGtpbmfgAQA!16s%2Fg%2F11wbzchg7s?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D";
       
-      const [img, setImg] = useState("bg-[url('assets/Images/background-1.jpg')]");
+      const [img, setImg] = useState("bg-[url('/assets/Images/background-1.jpg')]");
       const [count, setCount] = useState(1);
     
       const scrollAbout = () => {
@@ -25,16 +25,16 @@ const home = ({about, products}) => {
     
       useEffect(() => {
         if(count === 1){
-          setImg("bg-[url('assets/Images/background-1.jpg')]");
+          setImg("bg-[url('/assets/Images/background-1.jpg')]");
         }
         else if(count === 2){
-          setImg("bg-[url('assets/Images/background-2.jpg')]");
+          setImg("bg-[url('/assets/Images/background-2.jpg')]");
         }
         else if(count === 3){
-          setImg("bg-[url('assets/Images/background-3.jpg')]");
+          setImg("bg-[url('/assets/Images/background-3.jpg')]");
         }
         else if(count === 4){
-          setImg("bg-[url('assets/Images/background-4.jpg')]");
+          setImg("bg-[url('/assets/Images/background-4.jpg')]");
         }
       }, [count]);
 
@@ -44,7 +44,7 @@ const home = ({about, products}) => {
                 <div className="overflow-x-hidden">
                     <div className="w-full h-24 flex justify-between absolute top-0">
                         <div className="w-50 h-full flex justify-start items-center">
-                            <img src="public/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
+                            <img src="/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
                         </div>
                         <div className="md:w-130 w-40 h-full text-white text-sm flex justify-end items-center font-garet transition-all duration-500 ease-out">
                             <a role="button" className="mr-10 md:block hidden cursor-pointer">HOME</a>
@@ -52,7 +52,7 @@ const home = ({about, products}) => {
                             <a role="button" className="mr-10 md:block hidden cursor-pointer" onClick={scrollProducts}>PRODUCTS</a>
                             <a role="button" className="mr-10 md:block hidden cursor-pointer">CONTACTS</a>
                             <a role="button" className="md:hidden block">
-                                <img src="./public/assets/Icons/Menu-icon.png" alt="menu icon" className="w-10 mr-8"/>
+                                <img src="/assets/Icons/Menu-icon.png" alt="menu icon" className="w-10 mr-8"/>
                             </a>
                         </div>
                     </div>
@@ -64,12 +64,12 @@ const home = ({about, products}) => {
                         <div className="w-full md:h-31 h-25 flex md:justify-end justify-center md:items-center items-end">
                             <h3 className="font-milk-cursive text-ck-yellow lg:text-2xl md:text-base sm:xl text-lg md:relative md:top-2 md:left-14">Click here for location</h3>
                             <div className="relative top-13 md:block hidden">
-                                <img src="./public/assets/Icons/yellow-arrow.png" className="lg:w-60 w-50" />
+                                <img src="/assets/Icons/yellow-arrow.png" className="lg:w-60 w-50" />
                             </div>
                         </div>
                     </div>
                     <a target="_blank" href={`${locationLink}`}>
-                        <img src="public/assets/Icons/Store.png" alt="store logo" className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-70 hover:scale-105 transition-all duration-500 ease-out" title="Crispy King - Veterans Bran Location via Google Maps"/>
+                        <img src="/assets/Icons/Store.png" alt="store logo" className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-70 hover:scale-105 transition-all duration-500 ease-out" title="Crispy King - Veterans Bran Location via Google Maps"/>
                     </a>
                 </div>
             </div>

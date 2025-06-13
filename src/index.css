@@ -2,22 +2,22 @@
 
 @font-face {
   font-family: "Garet";
-  src: url("public/assets/Fonts/Garet Font/Garet-Book.ttf");
+  src: url("/assets/Fonts/Garet Font/Garet-Book.ttf");
 }
 
 @font-face {
   font-family: "Milk";
-  src: url("public/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Base-BF664ffce52d6ab.otf")
+  src: url("/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Base-BF664ffce52d6ab.otf")
 }
 
 @font-face {
   font-family: "Milk-Light";
-  src: url("public/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Line-BF664ffce581036.otf")
+  src: url("/assets/Fonts/Milk Font/TT-Milks-Casual-Pie-Trial-Line-BF664ffce581036.otf")
 }
 
 @font-face {
   font-family: "Milk-Cursive";
-  src: url("public/assets/Fonts/Milk Font/TT-Milks-Script-Trial-Regular-BF664ffceacb1e4.otf")
+  src: url("/assets/Fonts/Milk Font/TT-Milks-Script-Trial-Regular-BF664ffceacb1e4.otf")
 }
 
 @theme {
