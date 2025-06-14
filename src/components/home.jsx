@@ -53,7 +53,7 @@ const home = ({about, products}) => {
       return (
         <div className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center transition-all duration-700`}>
             <div className={`bg-[#000000b4] w-full h-full flex flex-col flex-start items-start`}>
-                <div className="overflow-x-hidden w-full">
+                <div className="overflow-hidden w-full">
                     <div className="w-full h-24 flex justify-between absolute top-0">
                         <div className="w-50 h-full flex justify-start items-center">
                             <img src="/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
@@ -73,7 +73,7 @@ const home = ({about, products}) => {
                     </div>
                     { dropDown && 
                       <div className="relative w-full mt-22 transition-all duration-1000">
-                        <div className="md:hidden text-[14px] w-full h-50 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet">
+                        <div className="md:hidden text-[14px] w-full h-45 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet">
                           <a role="button" className="cursor-pointer hover:text-gray-300" onClick={scrollAbout}>ABOUT</a>
                           <a role="button" className="cursor-pointer hover:text-gray-300" onClick={scrollProducts}>PRODUCTS</a>
                           <a role="button" className="cursor-pointer hover:text-gray-300">CONTACTS</a>
