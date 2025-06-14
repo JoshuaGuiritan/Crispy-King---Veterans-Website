@@ -20,6 +20,17 @@
   src: url("/assets/Fonts/Milk Font/TT-Milks-Script-Trial-Regular-BF664ffceacb1e4.otf")
 }
 
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 @theme {
     --color-ck-red: #da2113;
     --color-ck-yellow: #f0d610;
@@ -27,6 +38,7 @@
     --font-milk: "Milk", san-serif;
     --font-milk-light: "Milk-Light", san-serif;
     --font-milk-cursive: "Milk-Cursive", san-serif;
+    --animation-slideDown: 'slideDown 0.5s ease-out forwards';
 }
 
 body{
