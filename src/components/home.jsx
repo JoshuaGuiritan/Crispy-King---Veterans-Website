@@ -23,7 +23,7 @@ const home = ({ about, products }) => {
   };
 
   useEffect(() => {
-    dropDown ? sethoverMenu("border border-gray-400") : sethoverMenu("");
+    dropDown ? sethoverMenu("border border-gray-400 rounded-sm") : sethoverMenu("");
     !dropDown ? setHScreen("h-screen") : setHScreen("h-120");
   }, [dropDown]);
 
