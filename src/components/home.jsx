@@ -8,7 +8,7 @@ const home = ({about, products}) => {
       const [count, setCount] = useState(1);
       const [dropDown, setDropdown] = useState(false);
       const [hoverMenu, sethoverMenu] = useState("");
-      const [ddJustify, setDDJustify] = useState("justify-center");
+      const [hScreen, setHScreen] = useState("h-screen");
     
       const scrollAbout = () => {
         about.current?.scrollIntoView({behavior: "smooth"});
@@ -24,7 +24,7 @@ const home = ({about, products}) => {
 
       useEffect(() => {
         dropDown ? sethoverMenu("border border-gray-400") : sethoverMenu("");
-        dropDown ? setDDJustify("justify-start pt-20") : setDDJustify("justify-center");
+        !dropDown ? setHScreen("h-screen") : setHScreen("h-120");
       },[dropDown]);
     
       useEffect(() => {
@@ -52,16 +52,16 @@ const home = ({about, products}) => {
 
       return (
         <div className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center transition-all duration-700`}>
-            <div className={`bg-[#000000b4] w-full h-full flex flex-col ${ddJustify} items-start transition-all duration-500`}>
+            <div className={`bg-[#000000b4] w-full h-full flex flex-col flex-start items-start`}>
                 <div className="overflow-x-hidden w-full">
                     <div className="w-full h-24 flex justify-between absolute top-0">
                         <div className="w-50 h-full flex justify-start items-center">
                             <img src="/assets/Icons/cklogo.jpg" alt="crispyking logo" className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"/>
                         </div>
                         <div className="md:w-130 w-40 h-full text-white text-sm flex justify-end items-center font-garet transition-all duration-500 ease-out">
-                            <a role="button" className="mr-10 md:block hidden cursor-pointer" onClick={scrollAbout}>ABOUT</a>
-                            <a role="button" className="mr-10 md:block hidden cursor-pointer" onClick={scrollProducts}>PRODUCTS</a>
-                            <a role="button" className="mr-10 md:block hidden cursor-pointer">CONTACTS</a>
+                            <a role="button" className="mr-10 md:block hidden cursor-pointer hover:text-gray-300" onClick={scrollAbout}>ABOUT</a>
+                            <a role="button" className="mr-10 md:block hidden cursor-pointer hover:text-gray-300" onClick={scrollProducts}>PRODUCTS</a>
+                            <a role="button" className="mr-10 md:block hidden cursor-pointer hover:text-gray-300">CONTACTS</a>
                             <a role="button" className="md:hidden block cursor-pointer" onClick={clickedMenu}>
                               <div className="mr-6 h-full">
                                 <div className={`p-2 ${hoverMenu}`}>
@@ -72,17 +72,17 @@ const home = ({about, products}) => {
                         </div>
                     </div>
                     { dropDown && 
-                      <div className="relative w-full">
-                        <div className="md:hidden text-[12px] w-full h-50 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet">
-                          <a role="button" className="cursor-pointer" onClick={scrollAbout}>ABOUT</a>
-                          <a role="button" className="cursor-pointer" onClick={scrollProducts}>PRODUCTS</a>
-                          <a role="button" className="cursor-pointer">CONTACTS</a>
+                      <div className="relative w-full mt-22 transition-all duration-1000">
+                        <div className="md:hidden text-[14px] w-full h-50 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet">
+                          <a role="button" className="cursor-pointer hover:text-gray-300" onClick={scrollAbout}>ABOUT</a>
+                          <a role="button" className="cursor-pointer hover:text-gray-300" onClick={scrollProducts}>PRODUCTS</a>
+                          <a role="button" className="cursor-pointer hover:text-gray-300">CONTACTS</a>
                         </div>
                       </div>
                     }
                 </div>
                 
-                <div className="md:h-150 sm:h-110 h-100 w-full flex justify-center items-center md:flex-row flex-col transition-all duration-1000 mt-5">
+                <div className={`md:h-screen ${hScreen} w-full flex justify-center items-center md:flex-row flex-col transition-all duration-500 ease-out`}>
                     <div className="h-60 xl:w-185 lg:w-140 md:w-90 sm:w-145 w-110 flex flex-col justify-center md:items-start items-center">
                         <h1 className="font-milk text-white xl:text-7xl lg:text-5xl md:text-4xl sm:text-5xl text-[40px]">Veterans Branch</h1>
                         <h3 className="font-garet text-white xl:4xl lg:text-2xl md:text-xl sm:text-lg text-base">Zamboanga City</h3>
