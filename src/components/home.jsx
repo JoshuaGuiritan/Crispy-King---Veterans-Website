@@ -9,6 +9,7 @@ const home = ({ about, products }) => {
   const [dropDown, setDropdown] = useState(false);
   const [hoverMenu, sethoverMenu] = useState("");
   const [hScreen, setHScreen] = useState("h-screen");
+  const [ddEffect, setddEffect] = useState("max-h-0 opacity-0");
 
   const scrollAbout = () => {
     about.current?.scrollIntoView({ behavior: "smooth" });
@@ -25,6 +26,7 @@ const home = ({ about, products }) => {
   useEffect(() => {
     dropDown ? sethoverMenu("border border-gray-400 rounded-sm") : sethoverMenu("");
     !dropDown ? setHScreen("h-screen") : setHScreen("h-120");
+    !dropDown ? setddEffect("max-h-0 opacity-0") : setddEffect("max-h-45 opacity-100");
   }, [dropDown]);
 
   useEffect(() => {
@@ -49,12 +51,12 @@ const home = ({ about, products }) => {
 
   return (
     <div
-      className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center transition-all duration-700`}
+      className={`${img} w-screen h-screen bg-no-repeat bg-cover bg-center transition-all duration-1000`}
     >
       <div
-        className={`bg-[#000000b4] w-full h-full flex flex-col flex-start items-start`}
+        className={`bg-[#000000b4] w-full h-full flex flex-col justify-start items-start`}
       >
-        <div className="overflow-hidden w-full">
+        <div className="relative w-full">
           <div className="w-full h-24 flex justify-between absolute top-0">
             <div className="w-50 h-full flex justify-start items-center">
               <img
@@ -102,8 +104,7 @@ const home = ({ about, products }) => {
             </div>
           </div>
           {dropDown && (
-            <div className="w-full mt-22">
-              <div className="md:hidden text-[14px] w-full h-45 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet">
+              <div className={`text-[14px] w-full h-45 bg-[#00000046] text-white flex flex-col justify-evenly items-center font-garet ${ddEffect} transition-all duration-300 md:hidden mt-22`}>
                 <a
                   role="button"
                   className="cursor-pointer hover:text-gray-300"
@@ -122,22 +123,21 @@ const home = ({ about, products }) => {
                   CONTACTS
                 </a>
               </div>
-            </div>
           )}
         </div>
 
         <div
-          className={`md:h-screen ${hScreen} w-full flex justify-center items-center md:flex-row flex-col transition-all duration-500 ease-out`}
+          className={`md:h-screen ${hScreen} w-full flex justify-center items-center md:flex-row flex-col transition-all duration-700 ease-out`}
         >
-          <div className="h-60 xl:w-185 lg:w-140 md:w-90 sm:w-145 w-110 flex flex-col justify-center md:items-start items-center">
+          <div className="md:h-60 xl:w-185 lg:w-140 md:w-90 sm:w-145 w-110 flex flex-col justify-center md:items-start items-center">
             <h1 className="font-milk text-white xl:text-7xl lg:text-5xl md:text-4xl sm:text-5xl text-[35px]">
               Veterans Branch
             </h1>
             <h3 className="font-garet text-white xl:4xl lg:text-2xl md:text-xl sm:text-lg text-[15px]">
               Zamboanga City
             </h3>
-            <div className="w-full md:h-31 h-25 flex md:justify-end justify-center md:items-center items-end">
-              <h3 className="font-milk-cursive text-ck-yellow lg:text-2xl md:text-base sm:xl text-base md:relative md:top-2 md:left-14">
+            <div className="w-full md:h-31 h-20 flex md:justify-end justify-center md:items-center items-end">
+              <h3 className="font-milk-cursive text-ck-yellow lg:text-2xl md:text-base sm:text-lg text-base md:relative md:top-2 md:left-14">
                 Click store for location
               </h3>
               <div className="relative top-13 md:block hidden">
@@ -152,7 +152,7 @@ const home = ({ about, products }) => {
             <img
               src="/assets/Icons/Store.png"
               alt="store logo"
-              className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-60 hover:scale-105 transition-all duration-500 ease-out"
+              className="xl:w-100 lg:w-90 md:w-80 sm:w-75 w-60 hover:scale-105 transition-all duration-500 ease-out mt-3"
               title="Crispy King - Veterans Bran Location via Google Maps"
             />
           </a>
