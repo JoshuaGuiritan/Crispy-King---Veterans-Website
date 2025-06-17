@@ -32,15 +32,14 @@
 }
 
 @theme {
-    --color-ck-red: #ad190e;
+    --color-ck-red: #cf2a1e;
     --color-ck-yellow: #f0d610;
     --font-garet: "Garet", san-serif;
     --font-milk: "Milk", san-serif;
     --font-milk-light: "Milk-Light", san-serif;
     --font-milk-cursive: "Milk-Cursive", san-serif;
-    --animation-slideDown: 'slideDown 0.5s ease-out forwards';
 }
 
 body{
-  background-color: #da2113;
+  background-color: #cf2a1e;
 }
