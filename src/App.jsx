@@ -1,7 +1,7 @@
 import { useRef } from "react";
-import Home from "./components/home";
-import About from "./components/about";
-import Products from "./components/products";
+import Home from "./sections/home";
+import About from "./sections/about";
+import Products from "./sections/products";
 
 function App() {
 
