@@ -11,7 +11,7 @@ const products = ({products}) => {
 
     return(
         <div ref={products} className="w-screen h-screen flex flex-col bg-[#f4f4f4] justify-center items-center">
-            <h1 className="font-milk-cursive mb-20 xl:text-9xl lg:text-8xl text-7xl bg-clip-text text-transparent bg-gradient-to-tl from-[#eec54b] to-[#ffb300] transition-all duration-500">Products</h1>
+            <h1 className="font-milk-cursive mb-10 xl:text-9xl lg:text-8xl text-7xl bg-clip-text text-transparent bg-gradient-to-tl from-[#eec54b] to-[#ffb300] transition-all duration-500">Products</h1>
             <Carousel className="xl:w-5xl lg:w-4xl w-xs transition-all duration-500" opts={{
         align: "center",
       }}>
