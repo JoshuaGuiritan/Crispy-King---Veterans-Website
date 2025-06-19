@@ -11,42 +11,62 @@ const products = ({products}) => {
 
     return(
         <div ref={products} className="w-screen h-screen flex flex-col bg-[#282828] justify-center items-center">
-            <h1 className="font-milk-cursive mb-5 xl:text-9xl lg:text-8xl text-7xl bg-clip-text text-transparent bg-gradient-to-tl from-[#ffd966] to-[#ce9000] transition-all duration-500">Products</h1>
+            <h1 className="font-milk mb-5 xl:text-9xl lg:text-8xl text-5xl text-gray-200 transition-all duration-500">Products</h1>
             <Carousel className="xl:w-5xl lg:w-4xl w-64 transition-all duration-500">
                 <CarouselContent className="flex justify-start items-center">
                     <CarouselItem className="">
-                        <Card className="bg-[#404040] border-none">
-                            <CardContent className="flex aspect-square items-center justify-center">
-                            <span className="text-4xl font-semibold text-white">1</span>
+                        <Card className="bg-[#404040] border border-white">
+                            <CardContent className="flex flex-col justify-center items-center aspect-square">
+                                <div className="flex flex-col">
+                                    <img src="/assets/Images/fried-chicken.jpeg" className="w-60"/>
+                                    <div className="text-sm font-milk-cursive text-white mt-2">Crispy Fried Chicken</div>
+                                    <div className="text-[8px] font-garet text-white">Php 40.00/pc</div>
+                                </div>
                             </CardContent>
                         </Card>
                     </CarouselItem>
                     <CarouselItem className="">
-                        <Card className="bg-[#404040] border-none">
-                            <CardContent className="flex aspect-square items-center justify-center">
-                            <span className="text-4xl font-semibold text-white">2</span>
+                        <Card className="bg-[#404040] border border-white">
+                            <CardContent className="flex flex-col justify-center items-center aspect-square">
+                                <div className="flex flex-col">
+                                    <img src="/assets/Images/tokwang.jpeg" className="w-60"/>
+                                    <div className="text-sm font-milk-cursive text-white mt-2">Ngohiong</div>
+                                    <div className="text-[8px] font-garet text-white">Php 10.00/pc</div>
+                                </div>
                             </CardContent>
                         </Card>
                         
                     </CarouselItem>
                     <CarouselItem className="">
-                        <Card className="bg-[#404040] border-none">
-                            <CardContent className="flex aspect-square items-center justify-center">
-                            <span className="text-4xl font-semibold text-white">3</span>
+                        <Card className="bg-[#404040] border border-white">
+                            <CardContent className="flex flex-col justify-center items-center aspect-square">
+                                <div className="flex flex-col">
+                                    <img src="/assets/Images/lumpia-shanghai.jpeg" className="w-60"/>
+                                    <div className="text-sm font-milk-cursive text-white mt-2">Lumpiang Shanghai</div>
+                                    <div className="text-[8px] font-garet text-white">Php 8.00/pc</div>
+                                </div>
                             </CardContent>
                         </Card>
                     </CarouselItem>
                     <CarouselItem className="">
-                        <Card className="bg-[#404040] border-none">
-                            <CardContent className="flex aspect-square items-center justify-center">
-                            <span className="text-4xl font-semibold text-white">4</span>
+                        <Card className="bg-[#404040] border border-white">
+                            <CardContent className="flex flex-col justify-center items-center aspect-square">
+                                <div className="flex flex-col">
+                                    <img src="/assets/Images/meatball.jpeg" className="w-60"/>
+                                    <div className="text-sm font-milk-cursive text-white mt-2">MeatBall</div>
+                                    <div className="text-[8px] font-garet text-white">Php 10.00/pc</div>
+                                </div>
                             </CardContent>
                         </Card>
                     </CarouselItem>
                     <CarouselItem className="">
-                        <Card className="bg-[#404040] border-none">
-                            <CardContent className="flex aspect-square items-center justify-center">
-                            <span className="text-4xl font-semibold text-white">5</span>
+                        <Card className="bg-[#404040] border border-white">
+                            <CardContent className="flex flex-col justify-center items-center aspect-square">
+                                <div className="flex flex-col">
+                                    <img src="/assets/Images/siomain.jpeg" className="w-60"/>
+                                    <div className="text-sm font-milk-cursive text-white mt-2">Siomai</div>
+                                    <div className="text-[8px] font-garet text-white">Php 30.00/4pc</div>
+                                </div>
                             </CardContent>
                         </Card>
                     </CarouselItem>
