@@ -22,7 +22,7 @@ const products = ({products}) => {
                                         <div className="flex justify-center items-center">
                                             <img src="/assets/Icons/friedchicken.png" className="xl:w-90 lg:w-75 md:w-65 md:mb-0 mb-8 sm:w-70 w-50 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col md:ml-5">
+                                        <div className="flex flex-col md:ml-5 ml-0">
                                             <h1 className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Crispy Fried Chicken</h1>
                                             <h6 className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 40.00/pc</h6>
                                         </div>
@@ -38,7 +38,7 @@ const products = ({products}) => {
                                         <div className="flex justify-center items-center">
                                             <img src="/assets/Icons/ngohiong.png" className="xl:w-100 lg:w-85 md:w-75 sm:w-60 w-45 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col md:ml-10">
+                                        <div className="flex flex-col md:ml-10 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Ngohiong</div>
                                             <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
@@ -54,7 +54,7 @@ const products = ({products}) => {
                                         <div className="flex justify-center items-center">
                                             <img src="/assets/Icons/meatball.png" className="xl:w-100 lg:w-85 md:w-75 sm:w-60 w-45 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col md:ml-8">
+                                        <div className="flex flex-col md:ml-8 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Meatball</div>
                                             <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
@@ -70,7 +70,7 @@ const products = ({products}) => {
                                         <div className="flex justify-center items-center">
                                             <img src="/assets/Icons/siomai.png" className="xl:w-85 lg:w-65 md:w-55 sm:w-50 w-40 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col md:ml-8">
+                                        <div className="flex flex-col md:ml-8 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Siomai</div>
                                             <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
@@ -86,7 +86,7 @@ const products = ({products}) => {
                                         <div className="flex justify-center items-center">
                                             <img src="/assets/Icons/lumpia.png" className="xl:w-95 lg:w-85 md:w-70 sm:w-75 w-50 md:mb-0 mb-8 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col md:ml-8">
+                                        <div className="flex flex-col md:ml-8 ml-0">
                                             <div className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Lumpiang Shanghai</div>
                                             <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
@@ -96,8 +96,8 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                     </CarouselContent>
-                    <CarouselPrevious className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:block hidden"/>
-                    <CarouselNext className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:block hidden"/>
+                    <CarouselPrevious className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
+                    <CarouselNext className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
                     <h1 className="sm:hidden block text-xs text-white mt-8 font-garet text-center">Swipe to see menu</h1>
                 </Carousel>
             </div>
