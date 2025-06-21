@@ -9,8 +9,8 @@ const about = ({about}) => {
                 <div className="relative w-full">
                     <img src="/assets/Icons/Crown.png" className="absolute transition-all duration-500 xl:-top-4 xl:left-111 xl:w-12 lg:-top-4 lg:left-83 lg:w-10 md:-top-3 md:left-69 md:w-8 sm:-top-3 sm:left-82 sm:w-8 -top-2 left-67 w-6" />
                 </div>
-                <h1 className="text-white xl:text-8xl lg:text-7xl md:text-6xl sm:text-6xl text-5xl font-milk transition-all duration-500 mb-1">ABOUT US</h1>
-                <div className="w-full xl:text-lg lg:text-base md:text-sm sm:text-xs text-[10px] transition-all duration-500 md:text-start text-center">
+                <h1 className="text-white xl:text-8xl lg:text-7xl md:text-6xl sm:text-6xl text-5xl font-milk transition-all duration-500 mb-2">ABOUT US</h1>
+                <div className="w-full xl:text-lg lg:text-base md:text-sm text-xs transition-all duration-500 md:text-start text-center">
                     <p className="text-white font-garet">
                         Established in August 2024, our branch proudly joined the growing Crispy
                         King family, bringing the brand’s signature tasty, satisfying, 
