@@ -24,7 +24,7 @@ const products = ({products}) => {
                                         </div>
                                         <div className="flex flex-col md:items-start items-center md:ml-5 ml-0">
                                             <h1 className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Crispy Fried Chicken</h1>
-                                            <h6 className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 40.00/pc</h6>
+                                            <h6 className="xl:text-lg sm:text-base text-xs font-milk-cursive text-yellow-400 transition-all duration-500">Php 40.00/pc</h6>
                                         </div>
                                     </div>
                                     <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">1</h6>
@@ -40,7 +40,7 @@ const products = ({products}) => {
                                         </div>
                                         <div className="flex flex-col md:items-start items-center md:ml-10 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Ngohiong</div>
-                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-yellow-400 transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
                                     <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">2</h6>
@@ -56,7 +56,7 @@ const products = ({products}) => {
                                         </div>
                                         <div className="flex flex-col md:items-start items-center md:ml-8 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Bola-bola</div>
-                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-yellow-400 transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
                                     <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">3</h6>
@@ -72,7 +72,7 @@ const products = ({products}) => {
                                         </div>
                                         <div className="flex flex-col md:items-start items-center md:ml-8 ml-0">
                                             <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Siomai</div>
-                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 30.00/4pc</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-yellow-400 transition-all duration-500">Php 30.00/4pc</div>
                                         </div>
                                     </div>
                                     <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">4</h6>
@@ -88,7 +88,7 @@ const products = ({products}) => {
                                         </div>
                                         <div className="flex flex-col md:items-start items-center md:ml-8 ml-0">
                                             <div className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Lumpiang Shanghai</div>
-                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 8.00/pc</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-yellow-400 transition-all duration-500">Php 8.00/pc</div>
                                         </div>
                                     </div>
                                     <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">5</h6>
