@@ -96,8 +96,9 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                     </CarouselContent>
-                    <CarouselPrevious className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white"/>
-                    <CarouselNext className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white"/>
+                    <CarouselPrevious className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:block hidden"/>
+                    <CarouselNext className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:block hidden"/>
+                    <h1 className="sm:hidden block text-xs text-white mt-8 font-garet text-center">Swipe to see menu</h1>
                 </Carousel>
             </div>
         </div>
