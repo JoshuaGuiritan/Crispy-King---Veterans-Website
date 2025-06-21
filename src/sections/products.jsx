@@ -12,86 +12,86 @@ const products = ({products}) => {
     return(
         <div ref={products} className="w-screen h-screen bg-[url('/assets/Images/products-bg.jpeg')] bg-cover bg-no-repeat bg-center">
             <div className="w-full h-full flex flex-col bg-[#000000ad] justify-center items-center">
-                <h1 className="text-white font-milk xl:text-6xl lg:text-5xl text-5xl xl:mb-5 lg:mb-4 mb-4 transition-all duration-500">PRODUCTS</h1>
-                <Carousel className="xl:w-5xl lg:w-4xl md:w-3xl sm:w-lg w-sm transition-all duration-500">
+                <h1 className="text-white font-milk xl:text-6xl text-5xl mb-8 transition-all duration-500">PRODUCTS</h1>
+                <Carousel className="xl:w-5xl lg:w-4xl md:w-2xl sm:w-md w-xs transition-all duration-500">
                     <CarouselContent className="flex justify-start items-center">
                         <CarouselItem className="">
-                            <Card className="bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] border-2 border-white">
+                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
-                                    <div className="flex w-full h-full justify-center items-center">
+                                    <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
-                                            <img src="/assets/Icons/friedchicken.png" className="xl:w-90 lg:w-75 w-65 transition-all duration-500"/>
+                                            <img src="/assets/Icons/friedchicken.png" className="xl:w-90 lg:w-75 md:w-65 md:mb-0 mb-8 sm:w-70 w-50 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col ml-5">
-                                            <h1 className="xl:text-6xl lg:text-5xl text-4xl font-milk-cursive text-white mb-3 transition-all duration-500">Crispy Fried Chicken</h1>
-                                            <h6 className="xl:text-lg text-base font-milk-cursive text-white transition-all duration-500">Php 40.00/pc</h6>
+                                        <div className="flex flex-col md:ml-5">
+                                            <h1 className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Crispy Fried Chicken</h1>
+                                            <h6 className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 40.00/pc</h6>
                                         </div>
                                     </div>
-                                    <h6 className="text-white xl:text-lg text-base font-milk-cursive">1</h6>
+                                    <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">1</h6>
                                 </CardContent>
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] border-2 border-white">
+                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
-                                    <div className="flex w-full h-full justify-center items-center">
+                                    <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
-                                            <img src="/assets/Icons/ngohiong.png" className="xl:w-100 lg:w-85 w-75 transition-all duration-500"/>
+                                            <img src="/assets/Icons/ngohiong.png" className="xl:w-100 lg:w-85 md:w-75 sm:w-60 w-45 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col ml-10">
-                                            <div className="xl:text-7xl lg:text-6xl text-5xl font-milk-cursive text-white mb-3 transition-all duration-500">Ngohiong</div>
-                                            <div className="xl:text-lg text-base font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                        <div className="flex flex-col md:ml-10">
+                                            <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Ngohiong</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
-                                    <h6 className="text-white xl:text-lg text-base font-milk-cursive">2</h6>
+                                    <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">2</h6>
                                 </CardContent>
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] border-2 border-white">
+                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
-                                    <div className="flex w-full h-full justify-center items-center">
+                                    <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
-                                            <img src="/assets/Icons/meatball.png" className="xl:w-100 lg:w-85 w-75 transition-all duration-500"/>
+                                            <img src="/assets/Icons/meatball.png" className="xl:w-100 lg:w-85 md:w-75 sm:w-60 w-45 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col ml-8">
-                                            <div className="xl:text-7xl lg:text-6xl text-5xl font-milk-cursive text-white mb-3 transition-all duration-500">Meatball</div>
-                                            <div className="xl:text-lg text-base font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                        <div className="flex flex-col md:ml-8">
+                                            <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Meatball</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
-                                    <h6 className="text-white xl:text-lg text-base font-milk-cursive">3</h6>
+                                    <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">3</h6>
                                 </CardContent>
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] border-2 border-white">
+                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
-                                    <div className="flex w-full h-full justify-center items-center">
+                                    <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
-                                            <img src="/assets/Icons/siomai.png" className="xl:w-85 lg:w-65 w-55 transition-all duration-500"/>
+                                            <img src="/assets/Icons/siomai.png" className="xl:w-85 lg:w-65 md:w-55 sm:w-50 w-40 md:mb-0 mb-5 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col ml-8">
-                                            <div className="xl:text-7xl lg:text-6xl text-5xl font-milk-cursive text-white mb-3 transition-all duration-500">Siomai</div>
-                                            <div className="xl:text-lg text-base font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                        <div className="flex flex-col md:ml-8">
+                                            <div className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl font-milk-cursive text-white mb-3 transition-all duration-500">Siomai</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
-                                    <h6 className="text-white xl:text-lg text-base font-milk-cursive">4</h6>
+                                    <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">4</h6>
                                 </CardContent>
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] border-2 border-white">
+                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
-                                    <div className="flex w-full h-full justify-center items-center">
+                                    <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
-                                            <img src="/assets/Icons/lumpia.png" className="xl:w-95 lg:w-85 w-70 transition-all duration-500"/>
+                                            <img src="/assets/Icons/lumpia.png" className="xl:w-95 lg:w-85 md:w-70 sm:w-75 w-50 md:mb-0 mb-8 transition-all duration-500"/>
                                         </div>
-                                        <div className="flex flex-col ml-8">
-                                            <div className="xl:text-6xl lg:text-5xl text-4xl font-milk-cursive text-white mb-3 transition-all duration-500">Lumpiang Shanghai</div>
-                                            <div className="xl:text-lg text-base font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
+                                        <div className="flex flex-col md:ml-8">
+                                            <div className="xl:text-6xl lg:text-5xl sm:text-4xl text-2xl font-milk-cursive text-white mb-3 transition-all duration-500">Lumpiang Shanghai</div>
+                                            <div className="xl:text-lg sm:text-base text-xs font-milk-cursive text-white transition-all duration-500">Php 10.00/pc</div>
                                         </div>
                                     </div>
-                                    <h6 className="text-white xl:text-lg text-base font-milk-cursive">5</h6>
+                                    <h6 className="text-white xl:text-lg sm:text-base text-xs font-milk-cursive">5</h6>
                                 </CardContent>
                             </Card>
                         </CarouselItem>
