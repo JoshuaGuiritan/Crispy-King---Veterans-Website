@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const home = ({ about, products }) => {
+const home = ({ about, products, contacts }) => {
   const locationLink =
     "https://www.google.com/maps/place/Crispy+King+Veterans/@6.9080304,122.0787977,894m/data=!3m1!1e3!4m10!1m2!2m1!1scrispy+king!3m6!1s0x325041f9da4ee891:0xbeb14f99643146b6!8m2!3d6.90803!4d122.0802416!15sCgtjcmlzcHkga2luZ1oNIgtjcmlzcHkga2luZ5IBFGZhc3RfZm9vZF9yZXN0YXVyYW50qgFEEAEqDyILY3Jpc3B5IGtpbmcoADIeEAEiGkHFR-jv2lu_Zyy2nBQGWfP5sy8rpqOtvcDiMg8QAiILY3Jpc3B5IGtpbmfgAQA!16s%2Fg%2F11wbzchg7s?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D";
 
@@ -17,6 +17,10 @@ const home = ({ about, products }) => {
 
   const scrollProducts = () => {
     products.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const scrollContacts = () => {
+    contacts.current?.scrollIntoView({behavior: "smooth"});
   };
 
   const clickedMenu = () => {
@@ -83,6 +87,7 @@ const home = ({ about, products }) => {
               <a
                 role="button"
                 className="mr-10 md:block hidden cursor-pointer hover:text-gray-300"
+                onClick={scrollContacts}
               >
                 CONTACTS
               </a>
@@ -119,7 +124,7 @@ const home = ({ about, products }) => {
                 >
                   PRODUCTS
                 </a>
-                <a role="button" className="cursor-pointer hover:text-gray-300">
+                <a role="button" className="cursor-pointer hover:text-gray-300" onClick={scrollContacts}>
                   CONTACTS
                 </a>
               </div>
