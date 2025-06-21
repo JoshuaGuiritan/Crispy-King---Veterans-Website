@@ -12,7 +12,7 @@ const products = ({products}) => {
     return(
         <div ref={products} className="w-screen h-screen bg-[url('/assets/Images/products-bg.jpeg')] bg-cover bg-no-repeat bg-center">
             <div className="w-full h-full flex flex-col bg-[#000000ad] justify-center items-center">
-                <h1 className="text-white font-milk xl:text-6xl text-5xl md:mb-6 mb-8 transition-all duration-500">PRODUCTS</h1>
+                <h1 className="text-white font-milk xl:text-6xl text-5xl md:mb-3 mb-8 transition-all duration-500">PRODUCTS</h1>
                 <Carousel className="xl:w-5xl lg:w-4xl md:w-2xl sm:w-md w-xs transition-all duration-500">
                     <CarouselContent className="flex justify-start items-center">
                         <CarouselItem className="">
