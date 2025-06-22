@@ -1,3 +1,4 @@
+import FadeInSection from "/src/components/FadeInSection";
 import { useState, useEffect } from "react";
 
 const home = ({ about, products, contacts }) => {
@@ -61,6 +62,7 @@ const home = ({ about, products, contacts }) => {
         className={`bg-[#000000b4] w-full h-full flex flex-col justify-start items-start`}
       >
         <div className="relative w-full">
+          <FadeInSection>
           <div className="w-full h-24 flex justify-between absolute top-0">
             <div className="w-50 h-full flex justify-start items-center">
               <img
@@ -129,11 +131,14 @@ const home = ({ about, products, contacts }) => {
                 </a>
               </div>
           )}
+          </FadeInSection>
         </div>
 
+        
         <div
           className={`md:h-screen ${hScreen} w-full flex justify-center items-center md:flex-row flex-col transition-all duration-700 ease-out`}
         >
+          <FadeInSection>
           <div className="md:h-60 xl:w-185 lg:w-140 md:w-90 sm:w-145 w-110 flex flex-col justify-center md:items-start items-center">
             <h1 className="font-milk text-white xl:text-7xl lg:text-5xl md:text-4xl sm:text-5xl text-[35px]">
               Veterans Branch
@@ -153,6 +158,8 @@ const home = ({ about, products, contacts }) => {
               </div>
             </div>
           </div>
+          </FadeInSection>
+          <FadeInSection>
           <a target="_blank" href={`${locationLink}`}>
             <img
               src="/assets/Icons/Store.png"
@@ -161,6 +168,7 @@ const home = ({ about, products, contacts }) => {
               title="Crispy King - Veterans Bran Location via Google Maps"
             />
           </a>
+          </FadeInSection>
         </div>
       </div>
     </div>
