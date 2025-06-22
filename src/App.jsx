@@ -11,7 +11,7 @@ function App() {
   const contacts = useRef(null);
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       <Home about={about} products={products} contacts={contacts}/>
       <About about={about}/>
       <Products products={products}/>

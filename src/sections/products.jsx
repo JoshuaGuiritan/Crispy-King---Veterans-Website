@@ -20,7 +20,7 @@ const products = ({products}) => {
                 <Carousel className="xl:w-5xl lg:w-4xl md:w-2xl sm:w-md w-xs transition-all duration-500">
                     <CarouselContent className="flex justify-start items-center">
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -36,7 +36,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -52,7 +52,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -68,7 +68,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -84,7 +84,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
