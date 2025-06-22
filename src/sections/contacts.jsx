@@ -4,10 +4,10 @@ const contacts = ({contacts}) => {
     return(
         <div ref={contacts} className="w-screen h-100 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)]">
             <div className="w-full h-full flex sm:flex-row flex-col-reverse sm:justify-evenly justify-center items-center">
-                <FadeInSection delay={900}>
+                <FadeInSection>
                 <img src="/assets/Images/contact-ck.png" className="xl:w-90 lg:w-80 md:w-70 sm:w-60 w-50 transition-all duration-500 sm:mt-0 mt-8"/>
                 </FadeInSection>
-                <FadeInSection delay={900}>
+                <FadeInSection>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-white font-milk xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-5xl xl:mb-15 lg:mb-12 md:mb-10 sm:mb-5 mb-5 transition-all duration-500">
                         Contacts
