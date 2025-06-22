@@ -11,12 +11,12 @@ import {
 const products = ({products}) => {
     return(
         <div ref={products} className="w-screen h-screen bg-[url('/assets/Images/products-bg.jpeg')] bg-cover bg-no-repeat bg-center">
-            <div className="w-full h-full flex flex-col bg-[#000000ad] justify-center items-center">
+            <div className="w-full h-full flex flex-col bg-[#000000b4] justify-center items-center">
                 <h1 className="text-white font-milk xl:text-6xl text-5xl md:mb-3 mb-8 transition-all duration-500">PRODUCTS</h1>
                 <Carousel className="xl:w-5xl lg:w-4xl md:w-2xl sm:w-md w-xs transition-all duration-500">
                     <CarouselContent className="flex justify-start items-center">
                         <CarouselItem className="">
-                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -32,7 +32,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -48,7 +48,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -64,7 +64,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -80,7 +80,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000079] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -96,8 +96,8 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                     </CarouselContent>
-                    <CarouselPrevious className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
-                    <CarouselNext className="bg-[#0000007c] border-none hover:bg-[#000000e3] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
+                    <CarouselPrevious className="bg-[#00000046] border-none hover:bg-[#00000069] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
+                    <CarouselNext className="bg-[#00000046] border-none hover:bg-[#00000069] cursor-pointer text-white hover:text-white sm:flex justify-center hidden"/>
                     <h1 className="sm:hidden block text-xs text-white mt-8 font-garet text-center">Swipe left and right</h1>
                 </Carousel>
             </div>
