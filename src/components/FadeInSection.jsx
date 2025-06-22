@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-const FadeInSection = ({ children, delay = 0, threshold = 0.5 }) => {
+const FadeInSection = ({ children, delay = 0, threshold = 0 }) => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
