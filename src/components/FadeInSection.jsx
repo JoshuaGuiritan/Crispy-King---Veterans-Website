@@ -14,7 +14,7 @@ const FadeInSection = ({ children, delay = 0, threshold = 0.5 }) => {
       },
       {
         root: null,
-        rootMargin: '0px',
+        rootMargin: "0px",
         threshold: threshold,
       }
     );

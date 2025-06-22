@@ -13,14 +13,14 @@ const products = ({products}) => {
     return(
         <div ref={products} className="w-screen h-screen bg-[url('/assets/Images/products-bg.jpeg')] bg-cover bg-no-repeat bg-center">
             <div className="w-full h-full flex flex-col bg-[#000000b4] justify-center items-center">
-                <FadeInSection>
+                <FadeInSection delay={300}>
                 <h1 className="text-white font-milk xl:text-6xl text-5xl md:mb-3 mb-8 transition-all duration-500">PRODUCTS</h1>
                 </FadeInSection>
-                <FadeInSection>
+                <FadeInSection delay={300}>
                 <Carousel className="xl:w-5xl lg:w-4xl md:w-2xl sm:w-md w-xs transition-all duration-500">
                     <CarouselContent className="flex justify-start items-center">
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -36,7 +36,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -52,7 +52,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -68,7 +68,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
@@ -84,7 +84,7 @@ const products = ({products}) => {
                             </Card>
                         </CarouselItem>
                         <CarouselItem className="">
-                            <Card className="bg-[#00000046] border-none backdrop-blur-xs">
+                            <Card className="bg-[#00000046] border-none">
                                 <CardContent className="flex flex-col justify-center items-center md:aspect-video aspect-square">
                                     <div className="flex w-full h-full md:flex-row flex-col justify-center items-center">
                                         <div className="flex justify-center items-center">
