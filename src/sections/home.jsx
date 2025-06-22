@@ -62,16 +62,18 @@ const home = ({ about, products, contacts }) => {
         className={`bg-[#000000b4] w-full h-full flex flex-col justify-start items-start`}
       >
         <div className="relative w-full">
-          <FadeInSection>
           <div className="w-full h-24 flex justify-between absolute top-0">
             <div className="w-50 h-full flex justify-start items-center">
+              <FadeInSection>
               <img
                 src="/assets/Icons/cklogo.jpg"
                 alt="crispyking logo"
                 className="md:w-25 w-22 ml-8 transition-all duration-500 ease-out"
               />
+              </FadeInSection>
             </div>
             <div className="md:w-130 w-40 h-full text-white text-sm flex justify-end items-center font-garet transition-all duration-500 ease-out">
+              <FadeInSection>
               <a
                 role="button"
                 className="mr-10 md:block hidden cursor-pointer hover:text-gray-300"
@@ -79,6 +81,8 @@ const home = ({ about, products, contacts }) => {
               >
                 ABOUT
               </a>
+              </FadeInSection>
+              <FadeInSection>
               <a
                 role="button"
                 className="mr-10 md:block hidden cursor-pointer hover:text-gray-300"
@@ -86,6 +90,8 @@ const home = ({ about, products, contacts }) => {
               >
                 PRODUCTS
               </a>
+              </FadeInSection>
+              <FadeInSection>
               <a
                 role="button"
                 className="mr-10 md:block hidden cursor-pointer hover:text-gray-300"
@@ -93,6 +99,8 @@ const home = ({ about, products, contacts }) => {
               >
                 CONTACTS
               </a>
+              </FadeInSection>
+              <FadeInSection>
               <a
                 role="button"
                 className="md:hidden block cursor-pointer"
@@ -108,6 +116,7 @@ const home = ({ about, products, contacts }) => {
                   </div>
                 </div>
               </a>
+              </FadeInSection>
             </div>
           </div>
           {dropDown && (
@@ -131,7 +140,6 @@ const home = ({ about, products, contacts }) => {
                 </a>
               </div>
           )}
-          </FadeInSection>
         </div>
 
         
