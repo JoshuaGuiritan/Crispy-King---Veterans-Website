@@ -36,7 +36,7 @@ const home = ({ about, products, contacts }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCount((counts) => (counts === 6 ? 1 : counts + 1));
+      setCount((counts) => (counts === 4 ? 1 : counts + 1));
     }, 20000);
 
     return () => clearInterval(interval);
