@@ -45,6 +45,7 @@
 
 body{
  background: radial-gradient(circle at top left, #da2113, #b50000);
+ overflow-x: hidden;
 }
 
 @theme inline {
