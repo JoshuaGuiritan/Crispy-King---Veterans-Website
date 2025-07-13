@@ -18,6 +18,9 @@ const about = ({about}) => {
                         </FadeInSection>
                     </p>
                 </div>
+                <div className="w-8/12 flex justify-end mt-10">
+                    <h1 className="text-ck-yellow font-milk-cursive xl:text-xl lg:text-lg md:text-base sm:text-sm text-xs"><FadeInSection delay={300}>- Crispy King Veterans Admin</FadeInSection></h1>
+                </div>
         </div>
     );
 }
