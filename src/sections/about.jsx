@@ -2,7 +2,7 @@ import FadeInSection from "/src/components/FadeInSection";
 
 const about = ({about}) => {
     return(
-        <div ref={about} className="w-screen h-160 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] flex flex-col items-center justify-center">
+        <div ref={about} className="w-screen h-190 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] flex flex-col items-center justify-center">
                 <h1 className="text-white lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-milk transition-all duration-500 mb-4"><FadeInSection delay={300}>ABOUT US</FadeInSection></h1>
                 <div className="w-8/12 lg:text-2xl md:text-xl sm:text-lg text-base transition-all duration-500 text-center">
                     <p className="text-white font-garet">
