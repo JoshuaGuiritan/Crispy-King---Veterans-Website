@@ -4,7 +4,7 @@ const about = ({about}) => {
     return(
         <div ref={about} className="w-screen h-160 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)] flex flex-col items-center justify-center">
                 <h1 className="text-white xl:text-9xl lg:text-8xl md:text-7xl sm:text-6xl text-5xl font-milk transition-all duration-500 mb-4"><FadeInSection delay={300}>ABOUT US</FadeInSection></h1>
-                <div className="w-7/12 xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm transition-all duration-500 text-center">
+                <div className="w-8/12 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base transition-all duration-500 text-center">
                     <p className="text-white font-garet">
                         <FadeInSection delay={300}>
                         Established in August 2024, our branch proudly joined the growing Crispy
