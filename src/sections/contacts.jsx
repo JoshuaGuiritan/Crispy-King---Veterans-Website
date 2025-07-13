@@ -2,7 +2,7 @@ import FadeInSection from "/src/components/FadeInSection";
 
 const contacts = ({contacts}) => {
     return(
-        <div ref={contacts} className="w-screen h-130 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)]">
+        <div ref={contacts} className="w-screen h-150 bg-[radial-gradient(circle_at_top_left,_#da2113,_#b50000)]">
             <div className="w-full h-full flex sm:flex-row flex-col-reverse sm:justify-evenly justify-center items-center">
                 <FadeInSection delay={300}>
                 <img src="/assets/Images/contact-ck.png" className="xl:w-90 lg:w-80 md:w-70 sm:w-60 w-50 transition-all duration-500 sm:mt-0 mt-8"/>
