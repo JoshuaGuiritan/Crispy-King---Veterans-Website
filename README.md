@@ -10,7 +10,7 @@ Welcome to the official CrispyKing Veterans website — a platform celebrating q
 
 - ✅ Fully responsive layout
 - ✅ Stylish and clean UI
-- ✅ Built with modern web tech (React, Vite, TailwindCSS, etc.)
+- ✅ Built with modern web tech (React, Vite, TailwindCSS)
 - ✅ Deployed on Vercel for high performance
 - ✅ Optimized for mobile and desktop
 - ✅ Brand-ready design for food businesses or franchises
